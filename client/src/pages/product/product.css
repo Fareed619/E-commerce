@@ -1,0 +1,93 @@
+.product {
+  width: 80%;
+  margin: 3rem auto;
+}
+.product-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.product-imgs {
+  display: flex;
+  gap: 30px;
+  height: 475px;
+}
+
+.img-small {
+  width: 80px;
+  height: 100px;
+}
+.img-big {
+  width: 400px;
+}
+.type-clothes {
+  font-size: 25px;
+  font-weight: 600px;
+}
+
+.product-info .star {
+  color: brown;
+}
+.product-info .produc-oldprice {
+  font-size: 18px;
+  text-decoration: line-through;
+}
+.product-info .produc-newprice {
+  font-size: 18px;
+  color: brown;
+}
+
+.sizes {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  gap: 25px;
+}
+.sizes > p {
+  font-size: 20px;
+  font-weight: 500;
+}
+.sizes .select-size {
+  display: flex;
+  gap: 25px;
+}
+.sizes button {
+  width: 30%;
+  height: 40px;
+  text-transform: uppercase;
+  border: none;
+  background-color: #ff4400c7;
+  color: white;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: 0.4s;
+}
+.sizes button:hover {
+  transform: scale(1.05);
+}
+.sizes .select-size span {
+  padding: 10px;
+  background-color: rgba(128, 128, 128, 0.189);
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.extra-info span {
+  font-weight: 600;
+}
+.product-bottom {
+  margin-top: 4rem;
+}
+.product-bottom div {
+  display: flex;
+}
+.product-bottom div p {
+  padding: 20px;
+  background-color: rgba(128, 128, 128, 0.101);
+  border: 0.2px solid rgba(0, 0, 0, 0.11);
+  font-weight: 600;
+}
+.product-bottom .des {
+  padding: 20px;
+  background-color: rgba(128, 128, 128, 0.101);
+  border: 0.2px solid rgba(0, 0, 0, 0.11);
+}

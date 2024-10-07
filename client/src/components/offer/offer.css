@@ -1,0 +1,25 @@
+.offer-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(to right, #fdf, white);
+}
+
+em {
+    color:orangered
+}
+
+
+
+
+
+
+
+
+
+
+
+.img-offer {
+    width: 200px;
+    height: 300px;
+}

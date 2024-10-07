@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    box-shadow: 0 1px 3px -2px #000;
+    margin-bottom: 1px;
+    background-color: #fff;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    width: 200px;
+
+}
+.nav-logo{
+    font-size: 35px;
+    color: rgba(255, 0, 0, 0.527)
+}
+.icon-text {
+    text-transform: uppercase;
+    color: black;
+    margin-top: 4px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+
+.nav-profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+@media (max-width: 800px){
+    .navbar{
+        padding: 15px 30px
+    }
+    .logo{
+        width: 150px;
+    }
+    
+}

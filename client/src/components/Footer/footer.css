@@ -1,0 +1,26 @@
+.footer {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3), white);
+  padding-bottom: 5px;
+}
+.container-footer {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.flex-for-all {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.links-footer {
+  font-size: 17px;
+  margin: 50px 0;
+}
+
+@media (max-width: 500px) {
+  .links-footer {
+    padding-right: 35px;
+  }
+}

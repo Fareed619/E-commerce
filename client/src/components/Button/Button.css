@@ -1,0 +1,55 @@
+.btn {
+  font-size: 17px;
+
+  padding: 10px 40px;
+  border-radius: 30px;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+
+
+@media (max-width: 768px){
+  .btn {
+    font-size:16px;
+  
+    padding: 8px 25px;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  
+}
+@media (max-width: 500px){
+  .btn {
+    font-size: 13px;
+  
+    padding: 8px 10px;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  
+}
+@media (max-width: 380px){
+  .btn {
+    font-size: 11px;
+  
+    padding: 6px 8px;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  
+}
