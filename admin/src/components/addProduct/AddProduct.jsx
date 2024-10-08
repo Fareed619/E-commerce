@@ -26,7 +26,7 @@ const AddProduct = () => {
     formData.append("product", image);
 
     const imgResponse = await fetch(
-      "https://e-commerce-server-jhdo.onrender.com/api/product/upload",
+      "http://localhost:4000/api/product/upload",
       {
         method: "POST",
         headers: {
@@ -41,7 +41,7 @@ const AddProduct = () => {
       product.image = responseData.image_url;
       console.log(product);
       const addProducts = await fetch(
-        "https://e-commerce-server-jhdo.onrender.com/api/product/addproduct",
+        "http://localhost:4000/api/product/addproduct",
         {
           method: "POST",
           headers: {
