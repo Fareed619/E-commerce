@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseUrl = "http://localhost:4000";
+const baseUrl = "https://e-commerce-server-jhdo.onrender.com";
 
 export const api = axios.create({
   baseURL: `${baseUrl}/api`,
