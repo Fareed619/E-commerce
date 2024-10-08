@@ -6,7 +6,7 @@ const ListProduct = () => {
 
   const fetchInfo = async () => {
     const wholeProducts = await fetch(
-      "https://e-commerce-server-jhdo.onrender.com/api/product/allproducts"
+      "http://localhost:4000/api/product/allproducts"
     );
     const resJson = await wholeProducts.json();
     setAllProducts(resJson);
@@ -16,7 +16,7 @@ const ListProduct = () => {
   }, []);
 
   const removeProduct = async (id) => {
-    await fetch("https://e-commerce-server-jhdo.onrender.com/api/product/deleteproduct", {
+    await fetch("http://localhost:4000/api/product/deleteproduct", {
       method: "POST",
       headers: {
         Accept: "application/json",
